@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color:#333;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo{
+    text-align: center;
+}
+.menu li {
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.menu li:hover{
+    background: #ccc;
+}
+
+
+footer.footer{
+    background: #ddd;
+    text-align: center;
+    padding: 20px;
+}
