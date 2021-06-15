@@ -14,7 +14,7 @@ a:link, a:visited{
     display: block;
     clear: both;
 }
-.logo{
+h1{
     text-align: center;
 }
 .menu li {
@@ -23,6 +23,11 @@ a:link, a:visited{
     text-align: center;
     line-height: 40px;
 }
+
+.menu li a{
+    display: block;   
+}
+
 .menu li:hover{
     background: #ccc;
 }
@@ -32,4 +37,13 @@ footer.footer{
     background: #ddd;
     text-align: center;
     padding: 20px;
+}
+
+h2{
+    height: 300px;
+    background: skyblue;
+}
+
+.router-link-active{
+    background: orange;
 }
